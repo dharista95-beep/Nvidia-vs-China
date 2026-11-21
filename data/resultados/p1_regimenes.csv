@@ -1,0 +1,7 @@
+base,regimen,trimestres,desde,hasta,china_prom_musd,total_prom_musd,pct_china_prom,pct_china_min,pct_china_max
+facturacion,R0 Sin controles,12,FY2020-Q3,FY2023-Q2,1356.2,5391.7,25.0,22.1,28.4
+facturacion,R1 Controles 2022,5,FY2023-Q3,FY2024-Q3,2092.4,10160.2,20.0,15.8,22.2
+facturacion,R2 Controles oct-2023,6,FY2024-Q4,FY2026-Q1,4096.0,32777.0,12.1,8.8,15.4
+facturacion,R3 Licencia H20 / H200,1,FY2026-Q2,FY2026-Q2,2769.0,46743.0,5.9,5.9,5.9
+sede_cliente,R2 Controles oct-2023,3,FY2025-Q3,FY2026-Q1,8539.7,39491.7,21.7,19.9,23.2
+sede_cliente,R3 Licencia H20 / H200,5,FY2026-Q2,FY2027-Q2,4489.6,69942.4,6.4,4.5,8.5

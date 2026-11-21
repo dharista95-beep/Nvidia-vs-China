@@ -1,0 +1,9 @@
+region,cambio_musd,base,periodo,pct_del_cambio_total
+EE.UU.,56908.0,facturacion,FY2022→FY2025,54.9
+Taiwán,12029.0,facturacion,FY2022→FY2025,11.6
+China,9997.0,facturacion,FY2022→FY2025,9.7
+Otros,24649.0,facturacion,FY2022→FY2025,23.8
+EE.UU.,72135.0,sede_cliente,FY2025→FY2026,84.4
+Taiwán,18745.0,sede_cliente,FY2025→FY2026,21.9
+China,-5371.0,sede_cliente,FY2025→FY2026,-6.3
+Otros,-68.0,sede_cliente,FY2025→FY2026,-0.1

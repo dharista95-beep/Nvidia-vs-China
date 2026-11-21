@@ -1,0 +1,13 @@
+id,fecha_reaccion,origen,descripcion,beta_SP500,CAR_SP500_pct,t_SP500,beta_SOX,CAR_SOX_pct,t_SOX,rend_NVDA_dia0_pct,signif_5pct_SP500
+E1,2022-09-01,EE.UU.,Nvidia revela (8-K) que el gobierno exige licencia para vender A100/H100 a China,2.32,-8.44,-2.26,1.41,-6.48,-2.52,-7.67,True
+E2,2022-10-07,EE.UU.,BIS publica las reglas del 7 de octubre sobre chips avanzados y equipo para China,2.31,-1.5,-0.37,1.42,2.5,0.91,-8.03,False
+E3,2023-10-17,EE.UU.,BIS actualiza las reglas: quedan restringidos A800/H800 y L40S,2.14,-7.73,-1.85,1.32,-6.63,-2.11,-4.68,False
+E4,2024-12-09,China,SAMR (regulador de competencia chino) abre investigación antimonopolio a Nvidia,2.77,-5.65,-1.36,1.17,-4.92,-1.45,-2.55,False
+E5,2025-01-13,EE.UU.,"Se anuncia la regla ""AI Diffusion"" (licencias a nivel mundial; rescindida en mayo 2025)",2.65,-3.09,-0.71,1.15,-4.26,-1.21,-1.97,False
+E6,2025-04-16,EE.UU.,"Nvidia revela que el H20 requiere licencia; cargo de 5,500 MUSD (final: 4,500)",2.74,-2.26,-0.49,1.23,-3.68,-1.02,-6.87,False
+E7,2025-07-15,EE.UU.,Nvidia anuncia que retomará ventas de H20 a China,2.13,3.77,0.86,1.09,3.6,1.04,4.04,False
+E8,2025-08-11,EE.UU.,Se reporta acuerdo para que el gobierno de EE.UU. reciba 15% de ventas de H20 en China,2.03,-2.19,-0.55,1.08,-2.9,-0.9,-0.35,False
+E9,2025-09-17,China,La CAC pide a empresas chinas dejar de comprar chips de Nvidia (RTX Pro 6000D/H20),1.92,-1.49,-0.39,1.04,-4.73,-1.53,-2.62,False
+E10,2025-12-08,EE.UU.,Trump autoriza exportar H200 a China con 25% para el gobierno de EE.UU.,1.94,1.24,0.33,1.02,-1.29,-0.41,1.72,False
+E11,2026-01-14,China,Aduanas chinas reciben instrucción de no dejar entrar el H200,1.93,2.02,0.54,1.0,-0.97,-0.31,-1.44,False
+E12,2026-08-19,China,"China permite entregas limitadas de H200 caso por caso (ByteDance, Tencent)",1.89,-0.93,-0.31,0.51,0.02,0.01,-0.99,False

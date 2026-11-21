@@ -1,0 +1,13 @@
+id,fecha_anuncio,fecha_reaccion,origen,descripcion,fuente,dia_habil_ok
+E1,2022-08-31,2022-09-01,EE.UU.,Nvidia revela (8-K) que el gobierno exige licencia para vender A100/H100 a China,"Nvidia 8-K, 31-ago-2022",True
+E2,2022-10-07,2022-10-07,EE.UU.,BIS publica las reglas del 7 de octubre sobre chips avanzados y equipo para China,"BIS, 2022",True
+E3,2023-10-17,2023-10-17,EE.UU.,BIS actualiza las reglas: quedan restringidos A800/H800 y L40S,"BIS, 2023; Nvidia 10-K FY2024",True
+E4,2024-12-09,2024-12-09,China,SAMR (regulador de competencia chino) abre investigación antimonopolio a Nvidia,"Reuters, 2024",True
+E5,2025-01-13,2025-01-13,EE.UU.,"Se anuncia la regla ""AI Diffusion"" (licencias a nivel mundial; rescindida en mayo 2025)",Nvidia 10-K FY2026,True
+E6,2025-04-15,2025-04-16,EE.UU.,"Nvidia revela que el H20 requiere licencia; cargo de 5,500 MUSD (final: 4,500)","Nvidia 8-K, 15-abr-2025",True
+E7,2025-07-14,2025-07-15,EE.UU.,Nvidia anuncia que retomará ventas de H20 a China,"Nvidia, 2025",True
+E8,2025-08-11,2025-08-11,EE.UU.,Se reporta acuerdo para que el gobierno de EE.UU. reciba 15% de ventas de H20 en China,Nvidia 10-Q 3T FY2026,True
+E9,2025-09-17,2025-09-17,China,La CAC pide a empresas chinas dejar de comprar chips de Nvidia (RTX Pro 6000D/H20),"Financial Times vía Bloomberg, 2025",True
+E10,2025-12-08,2025-12-08,EE.UU.,Trump autoriza exportar H200 a China con 25% para el gobierno de EE.UU.,"Semafor / Bloomberg, 8-dic-2025",True
+E11,2026-01-14,2026-01-14,China,Aduanas chinas reciben instrucción de no dejar entrar el H200,"Reuters vía Business Day, 14-ene-2026",True
+E12,2026-08-19,2026-08-19,China,"China permite entregas limitadas de H200 caso por caso (ByteDance, Tencent)","Business Standard, 19-ago-2026",True
