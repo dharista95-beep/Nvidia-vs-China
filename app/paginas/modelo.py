@@ -151,7 +151,7 @@ que eligen entre categorías (por ejemplo "sube" o "baja") y se cuenta cuántas 
     E.seccion("Paso 3 · Escenarios para China",
               "Tú eliges qué tanto pesaría China en cada escenario y qué tan probable crees que es cada uno. "
               "Los valores iniciales salen de los datos: 1.5% (cierre), 8.2% (el último trimestre) y 15% (como en 2024).")
-    defaults = [("A. Se cierra todo", 1.5, 30), ("B. Apertura limitada (hoy)", 8.2, 60), ("C. Apertura amplia", 15.0, 10)]
+    defaults = [("A. Se cierra todo", 1.5, 30), ("B. Apertura limitada (hasta oct-2026)", 8.2, 60), ("C. Apertura amplia", 15.0, 10)]
     cols = st.columns(3)
     esc = []
     for c, (nom, pct0, p0_) in zip(cols, defaults):
@@ -198,7 +198,7 @@ que eligen entre categorías (por ejemplo "sube" o "baja") y se cuenta cuántas 
         ("¿China pesa menos de 10%?", f"Peso esperado {pct_esperado:.1f}%", pct_esperado < 10,
          "Sí: China no cambia el valor de la empresa. No pagar de más por noticias de apertura." if pct_esperado < 10
          else "No: China sí importa; seguir de cerca cada permiso."),
-        ("¿La probabilidad de cierre es de 30% o más?", f"Cierre {p_cierre:.0f}%", p_cierre >= 30,
+        ("¿La probabilidad de cierre es de 30% o más?", f"Cierre {p_cierre:.0f}% (supuesto del equipo)", p_cierre >= 30,,
          f"Sí: conviene protegerse en fechas de anuncio; una mala noticia ha costado en promedio {car_r:.1f}% en 3 días." if p_cierre >= 30
          else "No: el riesgo de cierre es bajo; no hace falta protección especial."),
         ("¿EE.UU. pesa más de 60%?", f"EE.UU. {ult.pct_eeuu:.1f}% ({ult.periodo})", ult.pct_eeuu > 60,
@@ -235,4 +235,5 @@ que eligen entre categorías (por ejemplo "sube" o "baja") y se cuenta cuántas 
 - **Los escenarios de China y sus probabilidades son supuestos** de quien usa la app, no salen del modelo.
 - **Las reglas de decisión y sus umbrales (10%, 30%, 60%, 50%) son propuestas del equipo**, no estándares del mercado.
 - Ejercicio académico; **no es asesoría de inversión**.
+- **La regla 3 compara un supuesto, no un dato observado:** la probabilidad de cierre es la que se pone en el Paso 3. Tras la suspensión de los envíos de H200 (17-nov-2026), el cierre parece más probable de lo supuesto.
 """)
