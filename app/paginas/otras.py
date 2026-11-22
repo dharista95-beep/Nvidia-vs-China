@@ -115,6 +115,9 @@ def act(D):
         c.markdown(E.tarjeta(("👉 ESTAMOS AQUÍ · " if actual else "") + nom, f"China {lo}-{hi}%" if hi < 100 else f"China >{lo}%",
                              f"Qué tendría que pasar: {disparador}. Qué hacer: {accion}.",
                              "azul" if actual else "gris", ""), unsafe_allow_html=True)
+    st.caption(f"Actualización al 21-nov-2026: el marcador usa el último trimestre con datos ({ult.periodo}). "
+               "El 17-nov-2026 Nvidia suspendió los envíos de H200 a China y su guía del Q4 no incluye ventas de "
+               "cómputo a China, así que la situación actual se acerca al escenario A.")
 
     E.seccion("Tablero de seguimiento (KPIs)", "Indicadores para revisar cada trimestre: valor actual contra la meta que proponemos.")
     res = A.estudio_eventos(px, ev, "SP500", (-1, 1))
