@@ -37,7 +37,7 @@ GLOSARIO = {
     "A100 / H100": "Chips de IA de gama alta de Nvidia. Desde 2022 no se pueden vender a China sin permiso del gobierno de EE.UU.",
     "A800 / H800": "Versiones 'recortadas' del A100 y H100, hechas para cumplir la regla de 2022 y poder seguir vendiendo en China. Se prohibieron en octubre de 2023.",
     "H20": "Chip todavía más recortado que Nvidia diseñó para China después de 2023. En abril de 2025 EE.UU. también le exigió permiso; Nvidia tuvo que reconocer una pérdida de 4,500 millones de dólares por chips que ya no pudo vender.",
-    "H200": "Chip de IA más potente que el H20. En diciembre de 2025 EE.UU. autorizó venderlo a China pagando 25% al gobierno, pero China frenó su entrada en aduanas; desde agosto de 2026 permite entregas limitadas.",
+    "H200": "Chip de IA más potente que el H20. En diciembre de 2025 EE.UU. autorizó venderlo a China pagando 25% al gobierno, pero China frenó su entrada en aduanas; desde agosto de 2026 permite entregas limitadas. En noviembre de 2026, tras vender 2,400 millones de dólares en el trimestre, Nvidia suspendió esos envíos.",
     "CUDA": "El software de Nvidia para programar sus chips. Hace que cambiarse a otro proveedor sea caro y lento, y por eso los clientes son 'leales'.",
     "TSMC": "Empresa de Taiwán que fabrica los chips que Nvidia diseña. Nvidia no tiene fábricas propias.",
     # Reglas y gobiernos
