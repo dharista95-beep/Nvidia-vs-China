@@ -198,7 +198,7 @@ que eligen entre categorías (por ejemplo "sube" o "baja") y se cuenta cuántas 
         ("¿China pesa menos de 10%?", f"Peso esperado {pct_esperado:.1f}%", pct_esperado < 10,
          "Sí: China no cambia el valor de la empresa. No pagar de más por noticias de apertura." if pct_esperado < 10
          else "No: China sí importa; seguir de cerca cada permiso."),
-        ("¿La probabilidad de cierre es de 30% o más?", f"Cierre {p_cierre:.0f}% (supuesto del equipo)", p_cierre >= 30,,
+        ("¿La probabilidad de cierre es de 30% o más?", f"Cierre {p_cierre:.0f}% (supuesto del equipo)", p_cierre >= 30,
          f"Sí: conviene protegerse en fechas de anuncio; una mala noticia ha costado en promedio {car_r:.1f}% en 3 días." if p_cierre >= 30
          else "No: el riesgo de cierre es bajo; no hace falta protección especial."),
         ("¿EE.UU. pesa más de 60%?", f"EE.UU. {ult.pct_eeuu:.1f}% ({ult.periodo})", ult.pct_eeuu > 60,
