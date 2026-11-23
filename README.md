@@ -1,6 +1,6 @@
 # Nvidia y China: cómo manejar la dependencia de un mercado que se puede cerrar
 
-Estudio de caso final de la materia Ciencia de Datos (Universidad Anáhuac Puebla), impartida por el Dr. Farid Krayem Pineda. Analiza cómo los controles de exportación de chips de inteligencia artificial de EE.UU. hacia China (2022-2026) afectaron a Nvidia y a sus competidores chinos, siguiendo las seis fases del análisis de datos.
+Estudio de caso final de la materia Ciencia de Datos (Universidad Anáhuac Puebla), impartida por el Dr. Farid Krayem Pineda y la profesora Leslie Marjorie Gallegos Salazar. Analiza cómo los controles de exportación de chips de inteligencia artificial de EE.UU. hacia China (2022-2026) afectaron a Nvidia y a sus competidores chinos, siguiendo las seis fases del análisis de datos.
 
 **Equipo:** Paul Carreto Pérez, Rosa Delia Hernández Arista, Fernando Torres Villalobos y Alejandro Victoria Castelán.
 
