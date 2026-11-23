@@ -45,6 +45,3 @@ export SEC_USER_AGENT="Nombre del equipo correo@dominio"
 cd notebooks && jupyter nbconvert --to notebook --execute 01_prepare_process.ipynb
 jupyter nbconvert --to notebook --execute 02_analyze_share.ipynb
 ```
-## Repositorio
-
-Este proyecto se publica en GitHub como `Nvidia-vs-China`.
