@@ -1,18 +1,27 @@
-# Caso Nvidia-China: datos y documentación (Ask, Prepare, Process)
+# Nvidia y China: cómo manejar la dependencia de un mercado que se puede cerrar
 
-## Estructura y reparto sugerido del documento
+Estudio de caso final de la materia Ciencia de Datos (Universidad Anáhuac Puebla), impartida por el Dr. Farid Krayem Pineda. Analiza cómo los controles de exportación de chips de inteligencia artificial de EE.UU. hacia China (2022-2026) afectaron a Nvidia y a sus competidores chinos, siguiendo las seis fases del análisis de datos.
 
-El índice completo del PDF, con páginas por sección y qué va a anexos, está en `docs/estructura_documento_final.md`.
+**Equipo:** Paul Carreto Pérez, Rosa Delia Hernández Arista, Fernando Torres Villalobos y Alejandro Victoria Castelán.
 
-| Integrante | Secciones | Archivo |
-|---|---|---|
-| 1 | Resumen ejecutivo, Ask, narración del caso, conclusiones | `docs/00_resumen_ejecutivo_y_conclusiones.md`, `docs/01_ask.md`, `docs/03a_narracion_del_caso.md` |
-| 2 | Prepare y Process | `docs/02_prepare_process.md`, `docs/bitacora_decisiones.md`, `notebooks/01_prepare_process.ipynb` |
-| 3 | Analyze | `docs/03_analyze.md`, `notebooks/02_analyze_share.ipynb` |
-| 4 | Share y Act | `docs/04_share_act.md`, `figuras/fig1` a `fig5` |
-| Todos | Referencias, uso de IA, reflexión del equipo | `docs/referencias_apa.md`, `docs/uso_de_ia.md` |
+## Documento final
 
-Otras carpetas: `data/raw/` (datos tal como se extrajeron), `data/clean/` (tablas limpias), `data/resultados/` (tablas de resultados del análisis), `figuras/` (gráficas PNG listas para el PDF).
+La versión final del caso está en `docs/Caso_Nvidia_China.pdf`: cuerpo, referencias APA y anexos A a J.
+
+## Contenido del repositorio
+
+| Carpeta o archivo | Qué contiene |
+|---|---|
+| `docs/Caso_Nvidia_China.pdf` | Documento final del caso. |
+| `docs/bitacora_decisiones.md` | Bitácora de decisiones de limpieza (D-xx) y de análisis (A-xx). La app la muestra en la página de limpieza. |
+| `docs/uso_de_ia.md` | Declaración de uso de inteligencia artificial. |
+| `notebooks/01_prepare_process.ipynb` | Descarga, limpieza y validación de los datos (fases Preparar y Procesar). |
+| `notebooks/02_analyze_share.ipynb` | Preguntas P1 a P4, modelo y figuras (fases Analizar y Compartir). |
+| `app/` | Aplicación Streamlit con las seis fases, tablero de indicadores y modelo con escenarios ajustables. Instrucciones en `app/README.md`. |
+| `data/raw/` | Datos tal como se extrajeron. |
+| `data/clean/` | Tablas limpias (ver el diccionario de datos abajo). |
+| `data/resultados/` | Tablas de resultados del análisis. |
+| `figuras/` | Gráficas en PNG que usan el documento y la app. |
 
 ## Diccionario de datos (data/clean)
 
